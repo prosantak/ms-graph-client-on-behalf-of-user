@@ -1,0 +1,14 @@
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\GraphApiOBOConsoleApp.exe.config
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\GraphApiOBOConsoleApp.exe
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\GraphApiOBOConsoleApp.pdb
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\Microsoft.Graph.dll
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\Microsoft.Graph.Core.dll
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\Newtonsoft.Json.dll
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\Lib.OnBehalfOf.AzureTokenProvider.dll
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\bin\Release\Lib.OnBehalfOf.AzureTokenProvider.pdb
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\obj\Release\GraphApiOBOConsoleApp.csprojAssemblyReference.cache
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\obj\Release\GraphApiOBOConsoleApp.csproj.CoreCompileInputs.cache
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\obj\Release\GraphApiOBOConsoleApp.csproj.CopyComplete
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\obj\Release\GraphApiOBOConsoleApp.exe
+C:\junk\POC\GraphApiOBOConsoleApp\GraphApiOBOConsoleApp\obj\Release\GraphApiOBOConsoleApp.pdb

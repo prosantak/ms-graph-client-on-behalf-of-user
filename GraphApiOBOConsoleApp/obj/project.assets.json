@@ -1,0 +1,480 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "Microsoft.Graph/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graph.Core": "1.12.0",
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        }
+      },
+      "Microsoft.Graph.Core/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Lib.OnBehalfOf.AzureTokenProvider/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "4.4.1"
+        },
+        "compile": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "Microsoft.Graph/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graph.Core": "1.12.0",
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        }
+      },
+      "Microsoft.Graph.Core/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Lib.OnBehalfOf.AzureTokenProvider/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "4.4.1"
+        },
+        "compile": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "Microsoft.Graph/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graph.Core": "1.12.0",
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        }
+      },
+      "Microsoft.Graph.Core/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Lib.OnBehalfOf.AzureTokenProvider/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "4.4.1"
+        },
+        "compile": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "Microsoft.Graph/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graph.Core": "1.12.0",
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.dll": {}
+        }
+      },
+      "Microsoft.Graph.Core/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.1, 12.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Graph.Core.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Lib.OnBehalfOf.AzureTokenProvider/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "4.4.1"
+        },
+        "compile": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib.OnBehalfOf.AzureTokenProvider.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Graph/1.12.0": {
+      "sha512": "lGzIfhAwWfk6LOxkzlj3sh7IJUy4TYlfEd0iAtcn/WEmeLCwuVt7U0UYVXF4ZajeYHt6i1U4+tlvXDGtDAT2sw==",
+      "type": "package",
+      "path": "microsoft.graph/1.12.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Microsoft.Graph.dll",
+        "lib/net45/Microsoft.Graph.xml",
+        "lib/netstandard1.1/Microsoft.Graph.dll",
+        "lib/netstandard1.1/Microsoft.Graph.xml",
+        "microsoft.graph.1.12.0.nupkg.sha512",
+        "microsoft.graph.nuspec"
+      ]
+    },
+    "Microsoft.Graph.Core/1.12.0": {
+      "sha512": "AGMtZWX7Ad7+p3+692QCtlqu5b1wBTx6XEA+wAX9e7PpjSaKAhedGcPzJiQOw+9cr3B+WQCl9veD68kubs4JhA==",
+      "type": "package",
+      "path": "microsoft.graph.core/1.12.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Microsoft.Graph.Core.dll",
+        "lib/net45/Microsoft.Graph.Core.xml",
+        "lib/netstandard1.1/Microsoft.Graph.Core.dll",
+        "lib/netstandard1.1/Microsoft.Graph.Core.xml",
+        "microsoft.graph.core.1.12.0.nupkg.sha512",
+        "microsoft.graph.core.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+      "sha512": "NDu8aCiSxYZFpu2mjyZGSh07FcPGc7dbTAWR54585DX+wO8lMdZ5EV/BsvHzCZSiaQSAxmO48vHDpCQ+DM2+QA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.clients.activedirectory/4.4.1",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/monoandroid81/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/uap10.0/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/uap10.0/Microsoft.IdentityModel.Clients.ActiveDirectory.pri",
+        "lib/uap10.0/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/xamarinios10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/xamarinios10/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "microsoft.identitymodel.clients.activedirectory.4.4.1.nupkg.sha512",
+        "microsoft.identitymodel.clients.activedirectory.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.1": {
+      "sha512": "G1o/1URPhFTVsWFiDg+Usg7zAkCxTOzDM0/bRTMGcc3GGg95wgknKOUsyw0HHp5d6FSuugSWLyBcAIvFTLlykw==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+monotouch+monoandroid/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+monotouch+monoandroid/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Lib.OnBehalfOf.AzureTokenProvider/1.0.0": {
+      "type": "project",
+      "path": "../Lib.OnBehalfOf.AzureTokenProvider/Lib.OnBehalfOf.AzureTokenProvider.csproj",
+      "msbuildProject": "../Lib.OnBehalfOf.AzureTokenProvider/Lib.OnBehalfOf.AzureTokenProvider.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "Lib.OnBehalfOf.AzureTokenProvider >= 1.0.0",
+      "Microsoft.Graph >= 1.12.0",
+      "Microsoft.IdentityModel.Clients.ActiveDirectory >= 4.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kundup\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\GraphApiOBOConsoleApp\\GraphApiOBOConsoleApp.csproj",
+      "projectName": "GraphApiOBOConsoleApp",
+      "projectPath": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\GraphApiOBOConsoleApp\\GraphApiOBOConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\kundup\\.nuget\\packages\\",
+      "outputPath": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\GraphApiOBOConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\kundup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://mol-it-nuget.azurewebsites.net/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {
+            "C:\\junk\\POC\\GraphApiOBOConsoleApp\\Lib.OnBehalfOf.AzureTokenProvider\\Lib.OnBehalfOf.AzureTokenProvider.csproj": {
+              "projectPath": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\Lib.OnBehalfOf.AzureTokenProvider\\Lib.OnBehalfOf.AzureTokenProvider.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "Microsoft.Graph": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          },
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+            "target": "Package",
+            "version": "[4.4.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

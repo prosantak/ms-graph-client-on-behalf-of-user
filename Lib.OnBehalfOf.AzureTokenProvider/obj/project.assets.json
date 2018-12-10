@@ -1,0 +1,184 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/4.4.1": {
+      "sha512": "NDu8aCiSxYZFpu2mjyZGSh07FcPGc7dbTAWR54585DX+wO8lMdZ5EV/BsvHzCZSiaQSAxmO48vHDpCQ+DM2+QA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.clients.activedirectory/4.4.1",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/monoandroid81/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/uap10.0/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/uap10.0/Microsoft.IdentityModel.Clients.ActiveDirectory.pri",
+        "lib/uap10.0/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/xamarinios10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/xamarinios10/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "microsoft.identitymodel.clients.activedirectory.4.4.1.nupkg.sha512",
+        "microsoft.identitymodel.clients.activedirectory.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "Microsoft.IdentityModel.Clients.ActiveDirectory >= 4.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kundup\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\Lib.OnBehalfOf.AzureTokenProvider\\Lib.OnBehalfOf.AzureTokenProvider.csproj",
+      "projectName": "Lib.OnBehalfOf.AzureTokenProvider",
+      "projectPath": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\Lib.OnBehalfOf.AzureTokenProvider\\Lib.OnBehalfOf.AzureTokenProvider.csproj",
+      "packagesPath": "C:\\Users\\kundup\\.nuget\\packages\\",
+      "outputPath": "C:\\junk\\POC\\GraphApiOBOConsoleApp\\Lib.OnBehalfOf.AzureTokenProvider\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\kundup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://mol-it-nuget.azurewebsites.net/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+            "target": "Package",
+            "version": "[4.4.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\bin\Debug\Lib.OnBehalfOf.AzureTokenProvider.dll
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\bin\Debug\Lib.OnBehalfOf.AzureTokenProvider.pdb
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\obj\Debug\Lib.OnBehalfOf.AzureTokenProvider.csproj.CoreCompileInputs.cache
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\obj\Debug\Lib.OnBehalfOf.AzureTokenProvider.csproj.CopyComplete
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\obj\Debug\Lib.OnBehalfOf.AzureTokenProvider.dll
+C:\junk\POC\GraphApiOBOConsoleApp\Lib.OnBehalfOf.AzureTokenProvider\obj\Debug\Lib.OnBehalfOf.AzureTokenProvider.pdb
